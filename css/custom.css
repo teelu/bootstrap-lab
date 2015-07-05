@@ -1,1 +1,125 @@
 /* You can include your custom styling here */
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+article a {
+	color:red;
+}
+
+
+h3 {
+	font-size: 24px;
+	font-family:sans-serif;
+}
+
+nav .container-fluid {
+	margin:auto 10px;
+	background-color:white;
+}
+
+.navbar {
+	background-color:white;
+	border-bottom:2px solid #e7e7e7;
+}
+
+#social-media {
+	border-radius:5px;
+	margin:0;
+	position:absolute;
+	z-index:100;
+	background-color:  #2c3e50;
+}
+
+#social-media .container {
+	border-radius:5px;
+}
+
+#social-media .row div {
+	padding:0;
+	margin: 5px 0;
+}
+
+.social-media-boxes {
+	margin:10px;
+	height:70px;
+	width:120px;
+	display:block;
+	color:white;
+	line-height:70px;
+	text-align:center;
+}
+
+.social-media-boxes:hover {
+	background-color:white;
+	color:black;
+	text-decoration: none;
+}
+
+.red {
+	color:red;
+}
+
+.red:hover {
+	color:blue;
+	text-decoration: underline;
+}
+
+.message-center {
+	padding:25px;
+}
+.message-center a {
+	color:red;
+}
+
+.wrapper {
+	padding:10px 40px;
+	background-color:#f8f9fa;
+
+}
+
+.wrapper article {
+	background-color:white;
+}
+
+.articles {
+	border:2px solid #e7e7e7;
+	background-color:white;
+	min-height:800px;
+	display:inline-block;
+	padding:20px 10px;
+}
+
+.sidebar {
+	background-color:white;
+	margin:auto;
+	padding: 0;
+}
+
+.sidebar article:first-child {
+	border-top:2px solid lightgrey;
+}
+
+.sidebar article {
+	padding:1px;
+	border-bottom:2px solid lightgrey;
+}
+
+.sidebar div {
+	padding:5px 2px;
+}
+.sidebar p {
+	margin	:0;
+}
+.sidebar img {
+	padding:15px;
+}
+.channels {
+	text-align:left;
+}
+.channels .caret {
+	text-align:right;
+}
+
+.dropdown-sidebar ul {
+	position:absolute;
+}

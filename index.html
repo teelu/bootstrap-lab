@@ -22,57 +22,152 @@
 
   <body>
 
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top white" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+            <span class="glyphicon glyphicon-search red" aria-hidden="true"></span>
+          </button>
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#social-media" aria-expanded="false" aria-controls="social-media">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="glyphicon glyphicon-user red" aria-hidden="true"></span>
+          </button>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#social-media" aria-expanded="false" aria-controls="social-media">
+            <span class="sr-only">Toggle navigation</span>
+            FOLLOW</span>
+             <span class="caret"></span>
           </button>
           <a class="navbar-brand" href="#">
             <img src="images/logo/tnw-logo.svg" alt="" width="auto" height="100%">
           </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Settings</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Help</a></li>
-          </ul>
-          <form class="navbar-form navbar-right">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="visible-xs">Follow</span><span class="caret"></span></a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
+            <form class="navbar-form navbar-right">
             <input type="text" class="form-control" placeholder="Search...">
           </form>
+          </ul>
+          <ul class="nav navbar-nav navbar-left">
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONFERENCE</a></li>
+            <li><a href="#">DEALS</a></li>
+            <li><a href="#">PRO</a></li>
+          </ul>
         </div>
       </div>
     </nav>
 
+    <!-- DROPDOWN -->
+    <div id="social-media" class="social-media-collapse collapse">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-4"><a class="social-media-boxes" href="#">Facebook</a></div>
+          <div class="col-xs-4"><a class="social-media-boxes" href="#">Twitter</a></div>
+          <div class="col-xs-4"><a class="social-media-boxes" href="#">LinkedIn</a></div>  
+          <!-- ROW -->
+        </div>
+        <div class="row">
+          <div class="col-xs-4"><a class="social-media-boxes" href="#">Facebook</a></div>
+          <div class="col-xs-4"><a class="social-media-boxes" href="#">Twitter</a></div>
+          <div class="col-xs-4"><a class="social-media-boxes" href="#">LinkedIn</a></div>  
+          <!-- ROW -->
+        </div>
+        <div class="row">
+          <div class="col-xs-4"><a class="social-media-boxes" href="#">Facebook</a></div>
+          <div class="col-xs-4"><a class="social-media-boxes" href="#">Twitter</a></div>
+          <div class="col-xs-4"><a class="social-media-boxes" href="#">LinkedIn</a></div>  
+          <!-- ROW -->
+        </div>
+        </div>
+    </div>
+
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
-          <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Reports</a></li>
-            <li><a href="#">Analytics</a></li>
-            <li><a href="#">Export</a></li>
-          </ul>
-          <ul class="nav nav-sidebar">
-            <li><a href="">Nav item</a></li>
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-            <li><a href="">More navigation</a></li>
-          </ul>
-          <ul class="nav nav-sidebar">
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-          </ul>
+        <div class="visible-lg col-lg-3 sidebar">
+          <div class="dd-sidebar">
+            <button type="button" class="btn btn-default dropdown-toggle channels col-lg-12" id="dropdown-menu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             ALL CHANNELS <span class="caret"></span>
+             </button>
+             <ul class="dropdown-menu" aria-labelledby="dropdown-menu1">
+              <li><a href="#">test</a></li>
+              <li><a href="#">test</a></li>
+              <li><a href="#">test</a></li>
+            </ul>
+          </div>
+             <button type="button" class="btn btn-default col-lg-6">LATEST</button>
+             <button type="button" class="btn btn-default col-lg-6">POPULAR</button>
+             
+            <article class="col-lg-12">
+              <div class="thumbnail-picture col-lg-4">
+               <img src="/images/sidebar/Full-Page-Beauty-Bundle-Screenshot-3-1-60x50.png" class="img-responsive">
+              </div>
+              <div class="col-lg-8">
+                <p>9 Myths About Social Media at Work</p>
+                <p>33 minutes ago</p>
+              </div>
+            </article>
+            <article class="col-lg-12">
+              <div class="thumbnail-picture col-lg-4">
+               <img src="/images/sidebar/FireShot-Screen-Capture-357-adidas-Originals-I-mi-ZX-FLUX-Photo-Print-App-www_adidas_co_uk_mizxflux-60x50.png" class="img-responsive">
+              </div>
+              <div class="col-lg-8">
+                <p>9 Myths About Social Media at Work</p>
+                <p>33 minutes ago</p>
+              </div>
+            </article>
+            <article class="col-lg-12">
+              <div class="thumbnail-picture col-lg-4">
+               <img src="/images/sidebar/well-dressed-man-in-coat-60x50.jpg" class="img-responsive">
+              </div>
+              <div class="col-lg-8">
+                <p>9 Myths About Social Media at Work</p>
+                <p>33 minutes ago</p>
+              </div>
+            </article>
+            <article class="col-lg-12">
+              <div class="thumbnail-picture col-lg-4">
+               <img src="/images/sidebar/kits-and-themese-feat-60x50.jpg" class="img-responsive">
+              </div>
+              <div class="col-lg-8">
+                <p>9 Myths About Social Media at Work</p>
+                <p>33 minutes ago</p>
+              </div>
+            </article>
+            <article class="col-lg-12">
+              <div class="thumbnail-picture col-lg-4">
+               <img src="/images/sidebar/Square-Reader-60x50.jpg" class="img-responsive">
+              </div>
+              <div class="col-lg-8">
+                <p>9 Myths About Social Media at Work</p>
+                <p>33 minutes ago</p>
+              </div>
+            </article>
         </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h1>News Content</h1>
+        <div class="col-sm-12 col-lg-9 col-lg-offset-3 main wrapper">
+          <div class="hidden-xs col-sm-12 text-center message-center">
+            <p>Support TNW - <a href="#">become Pro</a> and we can ditch the banners.</p>
+          </div>
+          <div class="articles">
+            <article class="col-xs-12 col-sm-8">
+              <img class="img-responsive" src="images/main/Square-Reader-520x245.jpg" />
+              BY: <a href="#">BEN WOODS</a> - 20 Nov' 14
+              <h2>Square officially launches its Register software platform worldwide</h2>
+              <p>Square has today announced that its point-of-sale (POS) software Square Register is now available globally, having previously been restricted to users in the US, Canada and Japan. Announced at The Financial...<a href="#">Keep reading -&gt;</a></p>
+            </article>
+            <article class="col-xs-12 col-sm-4">
+              <img class="img-responsive" src="images/main/well-dressed-man-in-coat-520x245.jpg" />
+              <h3>The weird science of first impressions</h3>
+            </article>
+            <article class="col-xs-12 col-sm-4">
+              <img class="img-responsive" src="images/main/FireShot-Screen-Capture-357-adidas-Originals-I-mi-ZX-FLUX-Photo-Print-App-www_adidas_co_uk_mizxflux-520x245.png" />
+              <h3>Adidas now lets Americans print photos on their sneakers too</h3>
+            </article>
+          </div>
         </div>
       </div>
     </div>
@@ -85,5 +180,5 @@
     <script src="js/docs.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
-</body>
+  </body>
 </html>
