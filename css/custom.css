@@ -107,6 +107,7 @@ nav .container-fluid {
 	background-color:white;
 	margin:auto;
 	padding: 0;
+	position:fixed;
 }
 
 
@@ -159,6 +160,47 @@ nav .container-fluid {
 	margin:10px;
 }
 
-.dropdown-sidebar ul {
-	position:absolute;
+.dropdown-menu {
+	width:100%;
 }
+.fixed-menu {
+	position:fixed;
+	width:340px;
+	background-color:white;
+	z-index:100;
+}
+.articles-feed {
+	margin-top:150px;
+}
+.article-sidebar{
+	margin-top:125px;
+	position:relative;
+	clear:both;
+}
+@media(max-width:767px){
+	.wrapper {
+		padding:5px 0 0 0;
+	}
+	.img-responsive {
+		width:100%;
+	}
+}
+
+@media(min-width:1200px) {
+	.sidebar {
+		width:325px;
+	}
+	.wrapper {
+		margin:0 325px;
+		width:1110px;
+	}
+	.navbar-link{
+		position:absolute;
+	}
+	.navbar-left:hover {
+		position:absolute;
+		left:104px;
+	}
+}
+
+
