@@ -39,6 +39,15 @@ nav .container-fluid {
 	margin: 5px 0;
 }
 
+#popular, #latest {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#sidebar-buttons {
+	border-bottom: 2px solid lightgrey;
+}
+
 .social-media-boxes {
 	margin:10px;
 	height:70px;
@@ -95,9 +104,6 @@ nav .container-fluid {
 	padding: 0;
 }
 
-.sidebar article:first-child {
-	border-top:2px solid lightgrey;
-}
 
 .sidebar article {
 	padding:1px;
@@ -115,6 +121,8 @@ nav .container-fluid {
 }
 .channels {
 	text-align:left;
+	background:red;
+	color:white;
 }
 .channels .caret {
 	text-align:right;

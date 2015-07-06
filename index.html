@@ -89,8 +89,8 @@
     <div class="container-fluid">
       <div class="row">
         <div class="visible-lg col-lg-3 sidebar">
-          <div class="dd-sidebar">
-            <button type="button" class="btn btn-default dropdown-toggle channels col-lg-12" id="dropdown-menu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <div class="dropdown">
+            <button type="button" class="btn btn-default dropdown-toggle channels col-lg-10 col-lg-offset-1" id="dropdown-menu1" data-toggle="#dropdown-menu" aria-haspopup="true" aria-expanded="false">
              ALL CHANNELS <span class="caret"></span>
              </button>
              <ul class="dropdown-menu" aria-labelledby="dropdown-menu1">
@@ -99,9 +99,10 @@
               <li><a href="#">test</a></li>
             </ul>
           </div>
-             <button type="button" class="btn btn-default col-lg-6">LATEST</button>
-             <button type="button" class="btn btn-default col-lg-6">POPULAR</button>
-             
+          <div id="sidebar-buttons">
+             <button type="button" class="btn btn-default col-lg-5 col-lg-offset-1" id="latest">LATEST</button>
+             <button type="button" id="popular" class="btn btn-default col-lg-5">POPULAR</button>
+          </div>
             <article class="col-lg-12">
               <div class="thumbnail-picture col-lg-4">
                <img src="/images/sidebar/Full-Page-Beauty-Bundle-Screenshot-3-1-60x50.png" class="img-responsive">
