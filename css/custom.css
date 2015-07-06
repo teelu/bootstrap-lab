@@ -44,9 +44,6 @@ nav .container-fluid {
 	margin-bottom:10px;
 }
 
-#sidebar-buttons {
-	border-bottom: 2px solid lightgrey;
-}
 
 .social-media-boxes {
 	margin:10px;
@@ -62,6 +59,14 @@ nav .container-fluid {
 	background-color:white;
 	color:black;
 	text-decoration: none;
+}
+
+.navbar-left li:hover {
+	border-bottom:2px solid red;
+	color:red;
+}
+.navbar-default .navbar-nav > li >a:hover {
+	color:red;
 }
 
 .red {
@@ -105,9 +110,13 @@ nav .container-fluid {
 }
 
 
-.sidebar article {
+.sidefeed {
 	padding:1px;
-	border-bottom:2px solid lightgrey;
+	border-top:1px solid lightgray;
+}
+
+.sidefeed:last-child {
+	border-bottom:1px	 solid lightgray;
 }
 
 .sidebar div {
@@ -120,12 +129,34 @@ nav .container-fluid {
 	padding:15px;
 }
 .channels {
+	margin-top: 10px;
 	text-align:left;
-	background:red;
+	background-color:red;
 	color:white;
 }
-.channels .caret {
-	text-align:right;
+
+.channels:hover {
+	background-color:red;
+	color:white;
+}
+.channels:active {
+	background-color:red;
+	color:white;
+	border:1px solid lightblue;
+}
+.channels:focus {
+	background-color:red;
+	color:white;
+	border:1px solid lightblue;
+}
+.channels:checked {
+	background-color:red;
+	color:white;
+	border:1px solid lightblue;
+}
+.channels span {
+	float:right;
+	margin:10px;
 }
 
 .dropdown-sidebar ul {
